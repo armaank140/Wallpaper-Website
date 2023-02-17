@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Playfair+Display:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+
+:root {
+  --main-bg-color: #ff0cf0;
+  --main-text-color: white;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  background-color: var(--main-bg-color);
+  font-family: "Oswald", sans-serif;
+}
+nav {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  height: 58px;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  display: flex;
+  width: 88px;
+  padding: 0 25px;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 30px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  /* font-weight: bolder; */
+}
+.container {
+  min-height: calc(100vh - 13vh - 58px);
+}
+.slider {
+  width: 90vw;
+  margin: 10px auto;
+  overflow: hidden;
+}
+.card {
+  max-width: 90vw;
+  margin: 37px auto;
+}
+.cards {
+  display: flex;
+  overflow: hidden;
+}
+.card-item {
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 15px;
+  font-family: sans-serif;
+}
+
+footer {
+  color: white;
+  background-color: var(--main-bg-color);
+  height: 13vh;
+  text-align: center;
+  font-family: "Dosis", sans-serif;
+}

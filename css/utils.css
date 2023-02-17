@@ -1,0 +1,26 @@
+.flex-all-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text-center {
+  text-align: center;
+}
+.my-1 {
+  margin: 5px 0;
+}
+.btn-center {
+  display: flex;
+  justify-content: center;
+  margin: 7px;
+}
+button:hover {
+  font-weight: bold;
+}
+button {
+  color: var(--main-text-color);
+  background: var(--main-bg-color);
+  border-radius: 9px;
+  line-height: 34px;
+  width: 113px;
+}
