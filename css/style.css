@@ -51,6 +51,10 @@ nav ul li a {
 nav ul li a:hover {
   /* font-weight: bolder; */
 }
+nav ul li a img {
+  width: 39px;
+  height: 42px;
+}
 .container {
   min-height: calc(100vh - 13vh - 58px);
 }
