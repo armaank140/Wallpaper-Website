@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Playfair+Display:ital@1&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
 
 :root {
   --main-bg-color: #ff890c;
@@ -27,17 +26,35 @@ nav ul {
   color: var(--main-text-color);
   height: 58px;
   align-items: center;
+  margin-left: 36em;
 }
 
 .logo {
   display: flex;
   align-items: center;
 }
-
+/* .logo1 {
+  display: flex;
+    height: 3em;
+    width: 3em;
+    padding: 5px;
+}  */
+.logo1 img {
+  display: flex;
+  height: 3em;
+  width: 3em;
+  padding: 5px;
+}
+.logo1 img:hover {
+  background-color: white;
+  border-radius: 8px;
+  margin: 2px;
+  padding: 0px;
+}
 .logo img {
   display: flex;
-  width: 88px;
   padding: 0 25px;
+  height: 3em;
 }
 
 nav ul li {
@@ -49,12 +66,17 @@ nav ul li a {
   text-decoration: none;
 }
 nav ul li a:hover {
-  /* font-weight: bolder; */
+  font-size: 18px;
 }
 nav ul li a img {
   width: 39px;
   height: 42px;
 }
+nav ul li a img:hover {
+  background-color: rgb(243, 235, 235);
+  border-radius: 6px;
+}
+
 .container {
   min-height: calc(100vh - 13vh - 58px);
 }

@@ -1,4 +1,4 @@
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   header {
     background-color: var(--main-bg-color);
     font-family: "Oswald", sans-serif;
@@ -13,13 +13,21 @@
     justify-content: center;
     margin: 2px;
   }
+  .logo1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 2px;
+  }
   nav ul {
     display: flex;
     background-color: var(--main-bg-color);
     color: var(--main-text-color);
     height: 58px;
     justify-content: center;
+    margin-left: 0;
   }
+
   .slider {
     height: 30vh;
   }
