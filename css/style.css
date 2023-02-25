@@ -93,6 +93,7 @@ nav ul li a img:hover {
 .cards {
   display: flex;
   overflow: hidden;
+  justify-content: center;
 }
 .card-item {
   display: inline-flex;
@@ -100,6 +101,11 @@ nav ul li a img:hover {
   flex-direction: column;
   margin: 0 15px;
   font-family: sans-serif;
+}
+.scroll-bar{
+  background-color: #f4ece3;
+  overflow: auto;
+  white-space: nowrap;
 }
 
 footer {
