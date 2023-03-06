@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200&family=Playfair+Display:ital@1&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap");
 :root {
   --main-bg-color: #ff890c;
   --main-text-color: white;
@@ -102,7 +102,7 @@ nav ul li a img:hover {
   margin: 0 15px;
   font-family: sans-serif;
 }
-.scroll-bar{
+.scroll-bar {
   background-color: #f4ece3;
   overflow: auto;
   white-space: nowrap;
@@ -114,4 +114,116 @@ footer {
   height: 13vh;
   text-align: center;
   font-family: "Dosis", sans-serif;
+}
+
+/* Contact Us */
+.container2 {
+  display: flex;
+  /* background-color: #8106b9; */
+  text-transform: capitalize;
+  background-color: #f4ece3;
+  font-family: "Open Sans", sans-serif;
+}
+.form {
+  /* background-color: aquamarine; */
+  height: 25em;
+  width: 28em;
+  margin: 50px;
+  text-align: center;
+  margin-left: 101px;
+}
+.text-filed {
+  /* background-color: red; */
+  height: 3em;
+  margin: 11px;
+}
+input[type="text"] {
+  padding: 11px;
+  margin: 12px;
+  width: 23em;
+}
+input[type="email"] {
+  padding: 11px;
+  margin: 12px;
+  width: 23em;
+}
+#textarea {
+  resize: none;
+  width: 327px;
+  margin: 11px;
+}
+#cbtn {
+  background-color: #f0f3ef;
+  height: 43px;
+  margin-top: 58px;
+  text-transform: capitalize;
+  color: black;
+}
+.boxes {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  margin-left: 85px;
+}
+.box1 {
+  /* background-color: #42d61d; */
+  height: 90px;
+  width: 31em;
+}
+.box1 img {
+  height: 46px;
+  margin: 23px;
+}
+.box1-lable {
+  margin: -64px;
+  padding: -2em;
+  margin-left: 97px;
+  font-size: 24px;
+}
+
+.box2 {
+  /* background-color: #c0283c; */
+  height: 90px;
+  width: 31em;
+}
+.box2 img {
+  height: 46px;
+  margin: 23px;
+}
+.box2-lable {
+  margin: -64px;
+  padding: -2em;
+  margin-left: 97px;
+  font-size: 24px;
+}
+.box3 {
+  /* background-color: #1ad329; */
+  height: 90px;
+  width: 31em;
+}
+.box3 img {
+  height: 46px;
+  margin: 23px;
+}
+.box3-lable {
+  margin: -64px;
+  padding: -2em;
+  margin-left: 97px;
+  font-size: 20px;
+}
+
+.box4 {
+  /* background-color: #21cebf; */
+  height: 90px;
+  width: 31em;
+}
+.box4 img {
+  height: 46px;
+  margin: 23px;
+}
+.box4-lable {
+  margin: -64px;
+  padding: -2em;
+  margin-left: 97px;
+  font-size: 20px;
 }
